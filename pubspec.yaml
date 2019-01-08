@@ -5,7 +5,7 @@ description: Package to interact with the OpenLibrary API.
 version: 0.0.1
 
 environment:
-  sdk: '>=2.1.0 <3.0.0'
+  sdk: '>=2.0.0-dev.28.0 <3.0.0'
 
 dependencies:
   http: ^0.12.0
