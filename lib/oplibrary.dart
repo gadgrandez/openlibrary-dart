@@ -15,7 +15,6 @@ class OPLibrary {
 
   OPLibrary() {
     if(_initialized)return;
-
     _initialized = true;
   }
 
@@ -47,9 +46,5 @@ class OPLibrary {
   // TODO: Implementar función de búsqueda por páginas
   //#endregion
 
-  static OPLibrary instance = _instance();
-
-  static OPLibrary _instance() {
-    return OPLibrary();
-  }
+  static final OPLibrary instance = OPLibrary();
 }
