@@ -2,7 +2,7 @@ name: oplibrary
 author: Gad Grandez
 homepage: https://github.com/gadgrandez/openlibrary-dart
 description: Package to interact with the OpenLibrary API.
-version: 0.0.1
+version: 0.0.2
 
 environment:
   sdk: '>=2.0.0-dev.28.0 <3.0.0'
