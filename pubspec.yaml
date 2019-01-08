@@ -1,0 +1,10 @@
+name: oplibrary
+description: Package to interact with the OpenLibrary API.
+
+environment:
+  sdk: '>=2.1.0 <3.0.0'
+
+dependencies:
+  http: ^0.12.0
+
+dev_dependencies:
