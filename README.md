@@ -1,2 +1,2 @@
 # openlibrary-dart
-Package to interact with the OpenLibrary API.
+A library written in dart to consume the OpenLibrary API.
