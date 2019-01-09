@@ -21,8 +21,7 @@ class OPLibrary {
     if(response.statusCode != 200) {
       return null;
     }
-    SearchResult result = SearchResult.fromMap(json.decode(response.body));
-    return result;
+    return SearchResult.fromMap(json.decode(response.body));
   }
   static Future<SearchResult> searchByTitle(String query) async {
     String q = '$_searchOpUrl?title=$query';
